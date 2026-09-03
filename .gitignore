@@ -1,0 +1,15 @@
+# 环境与密钥（仓库里只留键留空的 .env 模板；真实密钥放 .env.local）
+.env.local
+.env.*.local
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 数据库/向量库产物（体积大且无需版本管理）
+chroma_data/
+*.db
+
+# 压缩包与个人杂项
+*.zip
+kill_ali.ps1
